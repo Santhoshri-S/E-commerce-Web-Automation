@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","110744","test_automation[Mobile]","tests","2026-04-07","passed","2026-04-07","","test_automation_flow","",""
+"","109282","test_automation[laptop]","tests","2026-04-07","passed","2026-04-07","","test_automation_flow","",""
+"","83796","test_automation[HeadPhones]","tests","2026-04-07","passed","2026-04-07","","test_automation_flow2","",""
+"","86421","test_automation[laptop]","tests","2026-04-07","passed","2026-04-07","","test_automation_flow2","",""
+"","111248","test_automation[HeadPhones]","tests","2026-04-07","passed","2026-04-07","","test_automation_flow","",""
+"","74494","test_automation[Mobile]","tests","2026-04-07","passed","2026-04-07","","test_automation_flow2","",""
