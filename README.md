@@ -200,8 +200,11 @@ http://localhost:8081
 ## Direct Trigerring:
 
 pytest -n auto --alluredir=allure-results
+
 allure generate allure-results --clean
+
 cd allure-report
+
 python3 -m http.server 8081
 
 
@@ -214,6 +217,7 @@ python3 -m http.server 8081
 
 * Videos are stored in `videos/`
 [fa2d90fba626e27940954f1a29f3db61.webm](https://github.com/user-attachments/assets/5bc06f7f-a422-4877-b7fa-da0c162ce797)
+
 [fc9f7f31346bac3ab13b58a11c4cdc31.webm](https://github.com/user-attachments/assets/3f130842-9426-4a8d-841c-7792f10edb0d)
   
 * Allure reports are stored in `allure-report/`
