@@ -147,39 +147,40 @@ Allure Report integration provides:
 
 ## Run All Tests
 
+```bash
 pytest
-
+```
 
 ---
 
 ## Parallel Execution
 
-
+```bash
 pytest -n auto
-
+```
 
 ---
 
 ## Retry Failed Tests
 
-
+```bash
 pytest --reruns 2
-
+```
 
 ---
 
 ## Generate Allure Results
 
-
+```bash
 pytest -n auto --alluredir=allure-results
-
+```
 ---
 
 ## Generate Allure Report
 
-
+```bash
 allure generate allure-results --clean
-
+```
 
 ---
 
@@ -199,6 +200,7 @@ http://localhost:8081
 ---
 ## Direct Trigerring:
 
+```bash
 pytest -n auto --alluredir=allure-results
 
 allure generate allure-results --clean
@@ -206,7 +208,7 @@ allure generate allure-results --clean
 cd allure-report
 
 python3 -m http.server 8081
-
+```
 
 # 📸 Screenshots & Reports
 
@@ -216,6 +218,8 @@ python3 -m http.server 8081
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/8ea10d56-857f-47f4-ae9a-0aec4677d1ca" />
 
 * Videos are stored in `videos/`
+
+  
 [fa2d90fba626e27940954f1a29f3db61.webm](https://github.com/user-attachments/assets/5bc06f7f-a422-4877-b7fa-da0c162ce797)
 
 [fc9f7f31346bac3ab13b58a11c4cdc31.webm](https://github.com/user-attachments/assets/3f130842-9426-4a8d-841c-7792f10edb0d)
